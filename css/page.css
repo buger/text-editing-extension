@@ -1,0 +1,149 @@
+* {}
+
+.odesk_search_items a {
+    color: #03F;
+    text-decoration: none;
+}
+
+.odesk_search_items a:hover {
+    text-decoration: underline;
+}
+
+.odesk_search_items .avatar {
+    width: 60px;
+}
+
+.odesk_search_results .contractor .description{
+    width: 270px;
+}
+
+.odesk_search_results .contractor .description .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+    line-height: 150%;
+}
+
+.odesk_search_results .contractor .description .info {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.odesk_search_items .avatar img {
+    vertical-align: middle;    
+    width: 50px;
+    margin-right: 10px !important; 
+}
+
+.odesk_search_items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.odesk_search_items li {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.odesk_search_items .clear {
+    clear: both;
+    height: 1px;
+    line-height: 1px;
+}
+
+.odesk_search_items .float {
+    float: left;
+}
+
+.odesk_search_results li {
+    position: relative;
+}
+
+.odesk_search_results li:hover {
+    border: 1px solid #225A94;
+
+    background: -webkit-gradient(linear,0% 0,0% 80%,from(#F2F9FF),to(#EDF4FA),color-stop(.5,#ECF3F9));
+    color: #333;
+    -moz-box-shadow: 0 1px 2px #CCC;
+    -webkit-box-shadow: 0 1px 2px #CCC;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background: -webkit-gradient(linear,0% 0,0% 80%,from(#F2F9FF),to(#EDF4FA),color-stop(.5,#ECF3F9));
+}
+
+.odesk_search_items .header {
+    font-size: 14px;    
+}
+
+.odesk_search_items .search_type {
+    padding: 10px 0px;
+}
+
+.odesk_search_items a {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.odesk_search_items .search_type a {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.odesk_search_items a.inactive {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: default;
+}
+
+.odesk_search_items .description,
+.odesk_search_items .score,
+.odesk_search_items .rate {
+    color: #7D7875;
+    font-size: 12px;
+}
+
+.odesk_search_items .description span {
+    margin-right: 5px;
+}
+
+.odesk_search_items .rate {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    width: 60px;
+}
+
+.odesk_search_items .description .type {
+    color: #600;
+    font-weight: bolder;
+}
+
+.odesk_provider_search {
+    margin-left: 5px;
+    opacity: 0.8;
+}
+
+.odesk_provider_search:hover {
+    opacity: 1;
+}
+
+.odesk_search_results .advanced_search {
+    text-align: right;
+}
+
+.odesk_search_results .advanced_search a {
+    font-size: 12px;
+}
+
+.odesk_search_results .bold {
+    font-weight: bold;
+}
